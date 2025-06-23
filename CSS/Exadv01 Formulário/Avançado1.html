@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+            width:70%;
+        }
+        img{
+            float: left;
+        }
+        h1{
+            color: #909;
+            border-bottom: solid #909 3px;
+            text-align: right;
+        }
+        fieldset{
+            border: solid #FCC;
+
+        }
+        input, textarea{
+            background-color: #FCC;
+            border: none;
+            width: 800px;
+        }
+        label{
+            width: 100px;
+            display: inline-block;
+            margin-top: 20px;
+
+        }
+        button{
+            background-color: #FCC;
+            border: none;
+            padding: 5px;
+            width: 100px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dados da conta</h1>
+    <img src="form1_back.jpg" alt="">
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" maxlength="50">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" maxlength="50">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados da Conta</legend>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="frase">Frase <br>opcional:</label>
+                <textarea name="" id=""></textarea>
+            </div>
+        </fieldset>
+    </form>
+    <button>enviar</button>
+</body>
+</html>
